@@ -8,15 +8,15 @@ I have always loved doing logic puzzles and the logic involved in creating a dyn
 
 ##Technologies Used##
 
--HTML/CSS/jQuery
--Google Fonts
--Github
--Trello
+* HTML/CSS/jQuery
+* Google Fonts
+* Github
+* Trello
 
 ##Rough Drafts##
 
-[My Trello Board](https://trello.com/b/fTOaVi9E/project-1)
-![Rough Sketch](http://postimg.org/image/7z3m2xx4h/ "Grid")
+* [My Trello Board](https://trello.com/b/fTOaVi9E/project-1)
+* [Rough Sketches] (http://postimg.org/image/7z3m2xx4h/) 
 
 
 ##Future Developments##
