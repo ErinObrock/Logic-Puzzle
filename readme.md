@@ -16,8 +16,7 @@ I have always loved doing logic puzzles and the logic involved in creating a dyn
 ##Rough Drafts##
 
 [My Trello Board](https://trello.com/b/fTOaVi9E/project-1)
-
-![Grid sketch](/Users/Larry/GA/Project1.roughdraft.jpg "Grid")
+![Rough Sketch](http://postimg.org/image/7z3m2xx4h/ "Grid")
 
 
 ##Future Developments##
