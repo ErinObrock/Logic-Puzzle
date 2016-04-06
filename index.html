@@ -1,12 +1,189 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" src"stylesheet.css"></link>
+  <link rel="stylesheet" href="stylesheet.css"></link>
   <script type="text/javascript" src="jquery-2.2.2.js"></script>
   <script type="text/javascript" src="puzzle.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   <title>Project 1</title>
 </head>
 <body>
-  <p>Tester text</p>
+
+<h1> Marvel-ous Logic! </h1>
+
+<p> The Avengers are all out saving the city from an assortment of villians commiting different crimes! Use the hints provided to figure out which hero is fighting which villian, and which crime in progress they foiled! </p>
+
+<table id="horizontal">
+  <tr> 
+    <td> K <br> o <br> r <br> v <br> a <br> c </td> 
+    <td> U <br> l <br> t <br> o <br> n </td>
+    <td> T <br> a <br> s <br> k <br> m <br> a <br> s <br> t <br> e <br> r </td>
+    <td> L <br> o <br> k <br> i </td>
+    <td> T <br> h <br> a <br> n <br> o <br> s </td>
+    <td> R <br> o <br> b <br> o <br> t <br> <br> U <br> p <br> r <br> i <br> s <br> i <br> n <br> g </td>
+    <td> B&nbsp;&nbsp;S<br> r&nbsp;&nbsp;c<br> a&nbsp;&nbsp;i <br> i&nbsp;&nbsp;e <br> n&nbsp;&nbsp;n <br> w&nbsp;&nbsp;t <br> a&nbsp;&nbsp;i <br> s&nbsp;&nbsp;s <br> h&nbsp;&nbsp;t <br> i&nbsp;&nbsp;s <br> 
+      n &nbsp;&nbsp;&nbsp;<br> g &nbsp;&nbsp;&nbsp;<br> </td>
+    <td> M <br> i <br> l <br> i <br> t <br> a <br> r <br> y <br> <br> C <br> o <br> u <br> p </td>
+    <td> A <br> l <br> i <br> e <br> n <br> <br> I <br> n <br> v <br> a <br> s <br> i <br> o <br> n </td>
+    <td> B <br> a <br> n <br> k <br> <br> R <br> o <br> b <br> b <br> e <br> r <br> y </td
+
+
+</table>
+<table id="vertical">  
+  <tr>
+    <td>Iron Man</td>
+  </tr>
+  <tr>
+    <td> Hulk </td>
+  </tr>
+    <td> Black Widow </td>
+  </tr>
+  <tr>
+    <td> Thor </td>
+  </tr>
+    <td> Captain America </td>
+  </tr>
+  <tr>
+    <td> Robot Uprising </td>
+  </tr>
+  <tr>
+    <td> Brainwashing Scientists </td>
+  </tr>
+  <tr> 
+    <td> Military Coup </td>
+  </tr>
+  <tr>
+    <td> Alien Invasion </td>
+  </tr>
+  <tr> 
+    <td> Bank Robbery </td>
+  </tr>
+</table>
+<section id="gameboard">
+  <section id="grid_a">
+    <section class="row" id="a1">
+      <div class="column_a1" id="a1a1"></div>
+      <div class="column_b1" id="a1b1"></div>
+      <div class="column_c1" id="a1c1"></div>
+      <div class="column_d1" id="a1d1"></div>
+      <div class="column_e1" id="a1e1"></div>
+    </section>
+    <section class="row" id="a2"> 
+      <div class="column_a1" id="a2a2"></div>
+      <div class="column_b1" id="a2b2"></div>
+      <div class="column_c1" id="a2c2"></div>
+      <div class="column_d1" id="a2d2"></div>
+      <div class="column_e1"id="a2e2"></div>
+    </section>
+    <section class="row" id="a3">
+      <div class="column_a1" id="a3a3"></div>
+      <div class="column_b1" id="a3b3"></div>
+      <div class="column_c1" id="a3c3"></div>
+      <div class="column_d1" id="a3d3"></div>
+      <div class="column_e1" id="a3e3"></div>
+    </section>
+    <section class="row" id="a4">
+      <div class="column_a1" id="a4a4"></div>
+      <div class="column_b1" id="a4b4"></div>
+      <div class="column_c1" id="a4c4"></div>
+      <div class="column_d1" id="a4d4"></div>
+      <div class="column_e1" id="a4e5"></div>
+    </section>
+    <section class="row" id="a5">
+      <div class="column_a1" id="a5a5"></div>
+      <div class="column_b1" id="a5b5"></div>
+      <div class="column_c1" id="a5c5"></div>
+      <div class="column_d1" id="a5d5"></div>
+      <div class="column_e1" id="a5e5"></div>
+    </section>
+  </section>
+  <section id="grid_b">
+    <section class="row" id="b1">
+      <div class="column_a2" id="b1a1"></div>
+      <div class="column_b2" id="b1b1"></div>
+      <div class="column_c2" id="b1c1"></div>
+      <div class="column_d2" id="b1d1"></div>
+      <div class="column_e2" id="b1e1"></div>
+    </section>
+    <section class="row" id="b2">
+      <div class="column_a2" id="b2a2"></div>
+      <div class="column_b2" id="b2b2"></div>
+      <div class="column_c2" id="b2c2"></div>
+      <div class="column_d2" id="b2d2"></div>
+      <div class="column_e2" id="b2e2"></div>
+    </section>
+    <section class="row" id="b3">
+      <div class="column_a2" id="b3a3"></div>
+      <div class="column_b2" id="b3b3"></div>
+      <div class="column_c2" id="b3c3"></div>
+      <div class="column_d2" id="b3d3"></div>
+      <div class="column_e2" id="b3e3"></div>
+    </section>
+    <section class="row" id="b4">
+      <div class="column_a2" id="b4a4"></div>
+      <div class="column_b2" id="b4b4"></div>
+      <div class="column_c2" id="b4c4"></div>
+      <div class="column_d2" id="b4d4"></div>
+      <div class="column_e2" id="b4e5"></div>
+    </section>
+    <section class="row" id="b5">
+      <div class="column_a2" id="b5a5"></div>
+      <div class="column_b2" id="b5b5"></div>
+      <div class="column_c2" id="b5c5"></div>
+      <div class="column_d2" id="b5d5"></div>
+      <div class="column_e2" id="b5e5"></div>
+    </section>
+  </section>
+  <section id="grid_c">
+    <section class="row" id="c1">
+      <div class="column_a3" id="c1a1"></div>
+      <div class="column_b3" id="c1b1"></div>
+      <div class="column_c3" id="c1c1"></div>
+      <div class="column_d3" id="c1d1"></div>
+      <div class="column_e3" id="c1e1"></div>
+    </section>
+    <section class="row" id="c2">
+      <div class="column_a3" id="c2a2"></div>
+      <div class="column_b3" id="c2b2"></div>
+      <div class="column_c3" id="c2c2"></div>
+      <div class="column_d3" id="c2d2"></div>
+      <div class="column_e3" id="c2e2"></div>
+    </section>
+    <section class="row" id="c3">
+      <div class="column_a3" id="c3a3"></div>
+      <div class="column_b3" id="c3b3"></div>
+      <div class="column_c3" id="c3c3"></div>
+      <div class="column_d3" id="c3d3"></div>
+      <div class="column_e3" id="c3e3"></div>
+    </section>
+    <section class="row" id="c4">
+      <div class="column_a3" id="c4a4"></div>
+      <div class="column_b3" id="c4b4"></div>
+      <div class="column_c3" id="c4c4"></div>
+      <div class="column_d3" id="c4d4"></div>
+      <div class="column_e3" id="c4e5"></div>
+    </section>
+    <section class="row" id="c5">
+      <div class="column_a3" id="c5a5"></div>
+      <div class="column_b3" id="c5b5"></div>
+      <div class="column_c3" id="c5c5"></div>
+      <div class="column_d3" id="c5d5"></div>
+      <div class="column_e3" id="c5e5"></div>
+    </section>
+  </section>
+  <ul id="clues">
+    <li>Of the hero that fought Korvac and the hero that foiled a bank robbery, one was Iron Man and one was Black Widow.</li>
+    <li>Thanos did not brainwash any scientists.</li>
+    <li>Captain America either foiled a military coup or fought Ultron.</li>
+    <li>The Hulk fought Loki, who was responsible for neither the alien invasion nor the bank robbery.</li>
+    <li>Ultron was responsible for either the military coup or the bank robbery.</li>
+    <li>Taskmaster either fought Captain America or was responsible for the alien invasion.</li>
+    <li>Iron Man foiled the robot uprising, which was not perpetrated by the Taskmaster.</li>
+  </ul>
+  <ul id="buttonBar">
+  <li><button id="checkAnswer"> Check my answers! </button></li>
+  <li><button id="resetBoard"> Reset the board </button></li>
+  </ul>
+</section>
 </body>
 </html>

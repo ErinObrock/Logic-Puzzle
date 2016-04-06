@@ -1,0 +1,135 @@
+body {
+  display: block;
+  width: 1000px;
+  height: 1000px;
+  margin: 10px;
+  background-image: url(avengers.jpg);
+  background-size: 100% 100%;
+  color: white;
+  background-repeat: no-repeat;
+}     
+
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+div {
+
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  border: 2px solid white;
+ float: left;
+ font-family: 'Indie Flower';
+ overflow: hidden;
+ text-align: center;
+}
+
+.row {
+  width: 13.75em;
+  height: 2.7em;
+
+}
+
+#grid_a {
+  float: left;
+  clear: both;
+
+}
+
+#grid_b {
+  float: left;
+  clear: right;
+}
+
+#grid_c {
+  clear: both;
+
+}
+
+div:hover {
+  background-color: lightBlue;
+}
+
+#checkAnswer {
+  position: relative;
+  margin-top: 25px;
+}
+
+#gameboard {
+  position: absolute;
+  left: 200px;
+  top: 353px;
+}
+
+ #vertical td {
+  border: 2px solid white;
+  height: 2.5em;
+  text-align: center;
+  margin-left: 30px;
+
+}
+ #vertical { 
+  position: absolute;
+  top: 352px;
+  left: 40px;
+  border-collapse: collapse;
+  }
+
+  #horizontal {
+    position: absolute;
+    left : 199px;
+    border-collapse: collapse;
+  }
+#horizontal td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 2.5em;
+  border: 2px solid white;
+  text-align: center;
+}
+table {
+  line-height: 15px;
+
+}
+
+#clues {
+  position: absolute;
+  left: 500px;
+  top: -50px;
+  float: right;
+  width: 300px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+
+
+}
+
+p {
+  margin-left: 40px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+#checkAnswer {
+  margin: 20px;
+  padding: 5px;
+}
+
+#resetBoard { 
+  margin: 20px;
+  padding: 5px;
+  }
+
+#buttonBar {
+  list-style-type: none;
+  display: inline-block;
+}
+
+
