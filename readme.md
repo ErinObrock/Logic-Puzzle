@@ -11,9 +11,13 @@ I have always loved doing logic puzzles and the logic involved in creating a dyn
 -HTML/CSS/jQuery
 -Google Fonts
 -Github
-
+-Trello
 
 ##Rough Drafts##
+
+[My Trello Board](https://trello.com/b/fTOaVi9E/project-1)
+
+![Grid sketch](/Users/Larry/GA/Project1.roughdraft.jpg "Grid")
 
 
 ##Future Developments##
