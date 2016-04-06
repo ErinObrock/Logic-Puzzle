@@ -21,7 +21,7 @@ I have always loved doing logic puzzles and the logic involved in creating a dyn
 
 ##Future Developments##
 
--Implement 'show mistakes' button that flashes the background red on any grid squares filled out incorrectly
--Further work on styling to make the page reactive to mobile/resizing
--Implement function that will place "X"s automatically on all other squares in the row/column with an "O".
--Create separate page that explains the logic step by step
+* Implement 'show mistakes' button that flashes the background red on any grid squares filled out incorrectly
+* Further work on styling to make the page reactive to mobile/resizing
+* Implement function that will place "X"s automatically on all other squares in the row/column with an "O".
+* Create separate page that explains the logic step by step
