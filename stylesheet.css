@@ -20,8 +20,8 @@ div {
 
   box-sizing: border-box;
   cursor: pointer;
-  height: 44px;
-  width: 44px;
+  height: 49px;
+  width: 49px;
   border: 2px solid white;
  float: left;
  font-family: 'Indie Flower';
@@ -76,14 +76,15 @@ div:hover {
  #vertical { 
   position: absolute;
   top: 352px;
-  left: 40px;
+  left: 25px;
   border-collapse: collapse;
   }
 
   #horizontal {
     position: absolute;
-    left : 199px;
+    left : 203px;
     border-collapse: collapse;
+    top: 130px;
   }
 #horizontal td {
   padding-top: 4px;
@@ -99,7 +100,7 @@ table {
 
 #clues {
   position: absolute;
-  left: 500px;
+  left: 550px;
   top: -50px;
   float: right;
   width: 300px;
